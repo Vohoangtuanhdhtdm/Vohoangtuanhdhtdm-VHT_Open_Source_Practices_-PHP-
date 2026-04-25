@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\Api\ExerciseController;
+use App\Http\Controllers\Api\OopExerciseController;
 
 Route::post('/bai2/tinh-dien-tich', [ExerciseController::class, 'tinhDienTichHCN']);
 Route::post('/bai3/tinh-hinh-tron', [ExerciseController::class, 'tinhHinhTron']);
@@ -13,3 +14,10 @@ Route::post('/bai7/chao-theo-gio', [ExerciseController::class, 'chaoTheoGio']);
 Route::post('/bai8/sap-xep', [ExerciseController::class, 'sapXepMang']);
 Route::post('/bai9/dia-danh', [ExerciseController::class, 'danhLamThangCanh']);
 Route::post('/bai10/dia-danh-sap-xep', [ExerciseController::class, 'danhLamThangCanhMoRong']);
+
+// --- LAB 3: BÀI TẬP OOP ---
+Route::post('/oop/bai1-4', [OopExerciseController::class, 'quanLySach']);
+Route::post('/oop/bai5-8', [OopExerciseController::class, 'bai5Den8']);
+Route::post('/oop/bai9-11', [OopExerciseController::class, 'bai9Den11']);
+Route::post('/oop/bai12-15', [OopExerciseController::class, 'bai12Den15']);
+Route::post('/oop/bai16-20', [OopExerciseController::class, 'bai16Den20']);

@@ -1,3 +1,5 @@
+
+LAB 1:
 Dự án này là tập hợp 10 bài tập thực hành lập trình PHP từ cơ bản đến nâng cao (Mảng), được triển khai trên nền tảng công nghệ hiện đại nhằm tối ưu hóa trải nghiệm người dùng và hiệu suất phát triển. (Dự định sẽ chứa tất cả các bài tập và dự án liên quan để môn học Mã Nguồn Mở của Võ Hoàng Tuấn tại repo này! 😎)
 
 **Sinh viên thực hiện:** Võ Hoàng Tuấn  

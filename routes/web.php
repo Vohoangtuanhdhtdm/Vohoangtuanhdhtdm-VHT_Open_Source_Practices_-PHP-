@@ -42,4 +42,22 @@ Route::get('/bai9', function () {
 Route::get('/bai10', function () {
     return Inertia::render('Lab2/Bai10'); 
 });
+// --- LAB 3: BÀI TẬP OOP ---
+Route::get('/oop/bai1-4', function () {
+    return Inertia::render('Lab3_OOP/Bai1_4'); 
+});
+Route::get('/oop/bai5-8', function () {
+    return Inertia::render('Lab3_OOP/Bai5_8'); 
+});
+
+Route::get('/oop/bai9-11', function () {
+    return Inertia::render('Lab3_OOP/Bai9_11'); 
+});
+
+Route::get('/oop/bai12-15', function () {
+    return Inertia::render('Lab3_OOP/Bai12_15'); 
+});
+Route::get('/oop/bai16-20', function () {
+    return Inertia::render('Lab3_OOP/Bai16_20'); 
+});
 require __DIR__.'/settings.php';
